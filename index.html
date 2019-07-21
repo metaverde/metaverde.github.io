@@ -1,1 +1,122 @@
-metaverdesite
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> metaverde</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+.left, .right {
+  width: 20%;
+}
+
+.middle {
+  width: 60%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+</head>
+<body style="background-color: green;">
+
+<h1 style="color:#006400"> <div align="center">
+  <strong>metaverde</strong>
+</div> </h1>
+
+<div class="row">
+  <div class="column left" style="background-color:green;">
+    <h2>metame</h2>
+    <p><a href="https://www.youtube.com/channel/UCY3ivdjpQCyS4eYE_OvlIiQ?view_as=subscriber">
+      <strong>YouTube</strong></a></p><p>
+      <a href="http://northplazahst.wixsite.com/metaverde/the-diana-project">
+        <strong>The Diana Project</strong></a></p><p>
+        <a href="http://northplazahst.wixsite.com/metaverde/on-the-e-line">
+      <strong>E-Line </strong></a></p><p>
+      <a href="https://wiki.opensourceecology.org/wiki/Development_Team_Log">
+        <strong>OSE Dev Team Log</strong></a></p>
+
+
+
+
+          <p><button onclick="myFunction()"><font face="Century Gothic" size = "5"><style="color:#006400"><strong>Affirmation Generator</strong></style></font></button>
+
+      <p id="demo"></p><br><br><br>
+
+
+
+
+            <p> <iframe width="280" height="157" src="https://www.youtube.com/embed/4H6m_BnyVfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+
+           <p> <iframe width="280" height="157" src="https://www.youtube.com/embed/hqgsLMXH7RA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+
+          <p><iframe width="280" height="157" src="https://www.youtube.com/embed/I4jj7bUCOnw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+      <script>
+      function myFunction() {
+        var person = prompt("I am thankful for:", "It’s great to be alive Baby!");
+        if (person != null) {
+          document.getElementById("demo").innerHTML =
+          "I am thankful for " + person;
+
+        }
+      }
+      </script>
+  </div>
+  <div class="column middle" style="background-color:black;">
+    <h1 style="color:#006400"> <div align="center">
+      <strong>metalife</strong>
+    </div></h1>
+    <p><style="color:#006400">Some text.</style></p>
+
+
+
+
+
+  </div>
+  <div class="column right" style="background-color:green;">
+    <div align="right"><h2>metacoinage</h2>
+    <p><a href="https://medium.com/@metaverde/first-world-my-a-adf6efe63b8">
+            <strong>Medium photo essay <br>
+            Homelessness in Seattle</strong></a>
+    <p>UBI</p>
+    <script>
+    $(document).ready(function(){
+      $("p1").click(function(){
+        $(this).css('color', 'red');
+        $(this).fadeOut();
+      });
+    });
+    </script>
+
+
+
+    <p1><strong>Click this paragraph to make it disappear.</strong></p1>
+
+
+  </div></div>
+</div>
+
+</body>
+</html>
+
