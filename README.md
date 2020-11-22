@@ -1,4 +1,14 @@
 # metaverde.github.io
+
+Time flees, doesn't it?
+I still haven't got to this site.
+Spent the summer of covidtine trying to save the world irl.
+Sigh.
+Now I'm active in the 1Hive DAO community, so that's taking up time, and I've rededicated to working on the coding thing.
+The page should reflect that in its remake.
+We shall see.
+
+
 site
 I need a site but I'm having trouble narrowing my voice.
 
