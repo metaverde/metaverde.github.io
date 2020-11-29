@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+    background-color: #00FFEE;
+  }
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+
+
+  <input type="submit"
+         value="AFFIRMATIONS GENERATOR"
+         onclick="myFunction()"
+         style="font-size : 20px; width: 100%; height: 100px;" />
+
+         <div class = "buttons">  <p><button onclick="myFunction()"/button>
+
+         <p id="affirmations"></p></div>
+
+      <script>
+      function myFunction() {
+        var person = prompt("I am thankful for:", "It’s great to be alive Baby!");
+        if (person != null) {
+          document.getElementById("affirmations").innerHTML =
+          "I am thankful for " + person;
+
+        }
+      }
+      </script>
+
+
+
+
+
+</body>
+</html>
